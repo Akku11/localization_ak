@@ -13,8 +13,7 @@
 		82CAC75C2C0AA3AA00A8D06E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 82CAC75B2C0AA3AA00A8D06E /* Base */; };
 		82CAC75E2C0AA3AB00A8D06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CAC75D2C0AA3AB00A8D06E /* Assets.xcassets */; };
 		82CAC7612C0AA3AB00A8D06E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 82CAC7602C0AA3AB00A8D06E /* Base */; };
-		82CAC76B2C0ABFFC00A8D06E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82CAC7692C0ABFFC00A8D06E /* Localizable.strings */; };
-		82CAC7702C0AC19A00A8D06E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAC76F2C0AC19A00A8D06E /* String+Extension.swift */; };
+		82CAC7762C0AE19F00A8D06E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 82CAC7752C0AE19F00A8D06E /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +25,7 @@
 		82CAC75D2C0AA3AB00A8D06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CAC7602C0AA3AB00A8D06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82CAC7622C0AA3AB00A8D06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82CAC76A2C0ABFFC00A8D06E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		82CAC76D2C0AC00E00A8D06E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		82CAC76E2C0AC03700A8D06E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
-		82CAC76F2C0AC19A00A8D06E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		82CAC7752C0AE19F00A8D06E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +65,7 @@
 				82CAC75D2C0AA3AB00A8D06E /* Assets.xcassets */,
 				82CAC75F2C0AA3AB00A8D06E /* LaunchScreen.storyboard */,
 				82CAC7622C0AA3AB00A8D06E /* Info.plist */,
-				82CAC7692C0ABFFC00A8D06E /* Localizable.strings */,
-				82CAC76F2C0AC19A00A8D06E /* String+Extension.swift */,
+				82CAC7752C0AE19F00A8D06E /* Localizable.xcstrings */,
 			);
 			path = localization_ak;
 			sourceTree = "<group>";
@@ -136,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CAC75E2C0AA3AB00A8D06E /* Assets.xcassets in Resources */,
-				82CAC76B2C0ABFFC00A8D06E /* Localizable.strings in Resources */,
+				82CAC7762C0AE19F00A8D06E /* Localizable.xcstrings in Resources */,
 				82CAC7612C0AA3AB00A8D06E /* Base in Resources */,
 				82CAC75C2C0AA3AA00A8D06E /* Base in Resources */,
 			);
@@ -149,7 +144,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CAC7702C0AC19A00A8D06E /* String+Extension.swift in Sources */,
 				82CAC7592C0AA3AA00A8D06E /* ViewController.swift in Sources */,
 				82CAC7552C0AA3AA00A8D06E /* AppDelegate.swift in Sources */,
 				82CAC7572C0AA3AA00A8D06E /* SceneDelegate.swift in Sources */,
@@ -173,16 +167,6 @@
 				82CAC7602C0AA3AB00A8D06E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		82CAC7692C0ABFFC00A8D06E /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82CAC76A2C0ABFFC00A8D06E /* en */,
-				82CAC76D2C0AC00E00A8D06E /* de */,
-				82CAC76E2C0AC03700A8D06E /* id */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

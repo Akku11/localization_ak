@@ -16,7 +16,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    titleLabel.text = "welcome_title".localised() // <-------------   Hardcoded localisation
+    titleLabel.text = String(localized: "welcome_title")
     
     subTitleLabel.text = String(localized: "login_button")
   }
