@@ -13,7 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
+    LocalizationManager.shared.currentLanguage = Locale.preferredLanguages.first ?? "en-SG"
+    if let preferredLanguage = UserDefaults.standard.string(forKey: "AppPreferredLanguage") {
+              Bundle.setLanguage(preferredLanguage)
+          }
     return true
   }
 

@@ -15,10 +15,12 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    let locale = Locale.preferredLanguages.first
+    let preferredLanguage = UserDefaults.standard.string(forKey: "AppPreferredLanguage")
     
-    titleLabel.text = "welcome_title".localised() // <-------------   Hardcoded localisation
+    titleLabel.text = "welcome_title".localised() + "\(locale!) " + "  \(preferredLanguage!)" + "\(LocalizationManager.shared.currentLanguage)"
     
-    subTitleLabel.text = String(localized: "login_button")
+    subTitleLabel.text = LocalizationManager.shared.localizedString(forKey: "login_button")
   }
 
 

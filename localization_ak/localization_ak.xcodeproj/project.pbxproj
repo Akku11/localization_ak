@@ -27,9 +27,10 @@
 		82CAC7602C0AA3AB00A8D06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82CAC7622C0AA3AB00A8D06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82CAC76A2C0ABFFC00A8D06E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		82CAC76D2C0AC00E00A8D06E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		82CAC76E2C0AC03700A8D06E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		82CAC76F2C0AC19A00A8D06E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		82CAC7712C0AD4A500A8D06E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		82CAC7732C0AD4B600A8D06E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		82CAC7742C0AD4B600A8D06E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +172,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				82CAC7602C0AA3AB00A8D06E /* Base */,
+				82CAC7732C0AD4B600A8D06E /* id */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,8 +181,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				82CAC76A2C0ABFFC00A8D06E /* en */,
-				82CAC76D2C0AC00E00A8D06E /* de */,
-				82CAC76E2C0AC03700A8D06E /* id */,
+				82CAC7712C0AD4A500A8D06E /* de */,
+				82CAC7742C0AD4B600A8D06E /* id */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
