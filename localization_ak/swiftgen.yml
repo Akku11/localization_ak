@@ -1,0 +1,5 @@
+strings:
+  inputs: localization_ak/en.lproj
+  outputs:
+    templateName: structured-swift5
+    output: localization_ak/Generated/Strings.swift

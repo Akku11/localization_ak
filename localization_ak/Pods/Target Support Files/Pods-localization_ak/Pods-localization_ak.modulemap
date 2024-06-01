@@ -1,0 +1,6 @@
+framework module Pods_localization_ak {
+  umbrella header "Pods-localization_ak-umbrella.h"
+
+  export *
+  module * { export * }
+}
